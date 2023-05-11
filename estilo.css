@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(230, 227, 227); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.caixa{
+    width: 1000px;
+    height: 800px;      
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    box-shadow: 1px 10px 15px 1px rgba(0, 0, 0, 0.39);
+}
+
+.div-filho1{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 25px 25px 170px 25px; 
+}
+
+.cabecalho{
+    width: 400px;
+    flex-direction: column; 
+}
+
+form{
+    display: flex;    
+}
+.data-caixa{
+    flex-direction: column;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 175px;    
+}
+
+label{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+}
+
+
+input{
+    width: 115px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: 25px;
+    color: black;
+    padding-left: 5px;
+    cursor: pointer;
+    
+}
+
+hr{
+    width: 100%;
+}
+
+
+#texto-dia, #texto-mes, #texto-anos{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;   
+}
+
+#ponto-dia, #ponto-mes, #ponto-anos{
+    color:blueviolet;
+}
+
